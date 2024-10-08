@@ -19,7 +19,7 @@ namespace NoteApp
         public static string PathFile()
         {
             var filepath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            return filepath + @"C:\Users\valer\source\repos\NoteApp\NoteApp.json";
+            return filepath + @"c:\Users\valer\source\repos\NoteApp\NoteApp.json";
         }
 
         /// <summary>
